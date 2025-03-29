@@ -90,7 +90,7 @@ Open-source two-stage operational amplifier
 
 # Script for full simulation
 
-<pre> ```sh*********** OP-AMP CHARACTERIZATION SCRIPT ***********
+<pre> ```sh *********** OP-AMP CHARACTERIZATION SCRIPT ***********
 
 * Include Technology and Models
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
@@ -167,4 +167,4 @@ plot onoise > output_noise.dat
 plot inoise > input_noise.dat
 .endc
 
-.end``` </pre>
+.end ``` </pre>
