@@ -1,7 +1,7 @@
 # Two-stage op-amp design
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Op-amp.png)
 
-Open-source two-stage operational amplifier
+Open-source two-stage operational amplifier design using open-source tools. In this design, I created a basic two-stage op-amp schematic in Xschem and simulated it using Ngspice. In addition, I took an existing op-amp layout and modified it. You can generate the layout (.mag) file using the script that I uploaded into the layout directory.
 
 # Contents
 - [Used Tools](#Used-Tools)
