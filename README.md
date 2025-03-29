@@ -90,9 +90,9 @@ Open-source two-stage operational amplifier
 
 # Script for full simulation
 
- ::
- 
-* Include Technology and Models
+::
+
+   * Include Technology and Models
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 * Circuit Under Test
