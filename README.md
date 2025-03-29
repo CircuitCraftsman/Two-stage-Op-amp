@@ -169,6 +169,5 @@ plot inoise > input_noise.dat
 
 .end
 
-    ``` 
 
 
