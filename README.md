@@ -172,4 +172,5 @@ plot inoise > input_noise.dat
  </pre>
 
 # Layout
+![Layout](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Layout/Layout.png)
 
