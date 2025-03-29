@@ -55,3 +55,11 @@ Open-source two-stage operational amplifier
     <td> 18 V/µs</td>
 </tr>
 <tr>
+
+# Schematic
+![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Schematic.png)
+
+- # Simulation
+
+    - Pre-layout simulation
+    - Post-layout simulation
