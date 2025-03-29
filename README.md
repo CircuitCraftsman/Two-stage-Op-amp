@@ -87,7 +87,7 @@ Open-source two-stage operational amplifier design using open-source tools. In t
 
 ![PSRR](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/PSRR.png)
 
-# Slew rate
+**Slew rate**
 ![Slew=Rate](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Slew%20rate.png)
 
 # Script for full simulation
