@@ -51,7 +51,7 @@ Open-source two-stage operational amplifier
     <td>138dB</td>
 </tr>
 <tr>
-    <td>Compenastion capacitor</td>
+    <td>Compensation capacitor</td>
     <td>800fF</td>
 </tr>
 <tr>
@@ -87,5 +87,88 @@ Open-source two-stage operational amplifier
 
 # Slew rate
 ![Slew=Rate](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Slew%20rate.png)
+
+# Script for full simulation
+    ```
+    *********** OP-AMP CHARACTERIZATION SCRIPT ***********
+
+* Include Technology and Models
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+* Circuit Under Test
+.include ./Op-amp.spice
+X1 Vinp Vinn Vout Vdd Vss Vref Op-amp
+
+* Power Supplies
+Vdd Vdd 0 DC 1.8 AC 1
+Vss Vss 0 DC 0
+
+* Differential Inputs (for diff-mode gain)
+Vcm Vin_common 0 DC 0.9
+Vdiff Vinp Vin_common DC 5m
+Vdiff2 Vinn Vin_common DC -5m
+
+* Bias Current Source
+Iref Vdd Vref DC 10u
+
+* Load
+CL Vout 0 1p
+
+*************** AC ANALYSIS: Diff-mode gain + PSRR ***************
+.control
+set filetype=ascii
+
+ac dec 100 1 1G
+let diff_in = v(Vinp) - v(Vinn)
+let diff_gain = v(Vout)/diff_in
+let psrr_plus = v(Vout)/v(Vdd)
+
+* Save Plots
+plot db(diff_gain) > diff_gain.dat
+plot db(psrr_plus) > psrr.dat
+
+.endc
+
+*************** TRAN ANALYSIS: Slew Rate ***************
+* Apply large signal input
+Vin_slew Vinp 0 PULSE(-1.8 1.8 0n 1n 1n 10u 20u)
+Vinn Vinn 0 DC 0.9
+
+.control
+tran 0.01u 25u
+plot v(Vout) > slew.dat
+plot deriv(v(Vout)) > slew_deriv.dat
+.endc
+
+*************** DC ANALYSIS: ICMR ***************
+* Sweep common-mode input
+Vcm Vin_common 0 DC 0
+Vinp Vinp Vin_common DC 5m
+Vinn Vinn Vin_common DC -5m
+
+.control
+dc Vcm 0 1.8 0.01
+plot v(Vout) > icmr.dat
+.endc
+
+*************** NOISE ANALYSIS: Input-referred noise ***************
+* For noise, small-signal sources should be in place
+* AC sources applied to input
+
+* Differential excitation
+Vac Vinp 0 AC 1
+Vinn Vinn 0 AC 0
+
+.control
+noise v(Vout) Vinp dec 100 1 1G 1
+* Print total integrated noise from 1Hz to 1GHz
+print inoise_total onoise_total
+plot onoise > output_noise.dat
+plot inoise > input_noise.dat
+.endc
+
+.end
+
+    ``` 
 
 
