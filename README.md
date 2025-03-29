@@ -60,7 +60,7 @@ Open-source two-stage operational amplifier
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Schematic.png)
 
 # Pre-Layout Simulation
-  
+Common-mode gain
 ![Common-Mode-Gain](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Common-mode%20gain.png)
 
 ![Derivative](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Derivative.png)
