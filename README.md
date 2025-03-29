@@ -9,6 +9,7 @@ Open-source two-stage operational amplifier
 - [Schematic](#Schematic)
 - [Pre-Layout Simulation](#Pre-Layout-Simulation)
 - [Layout](#Layout)
+- [Script for full simulation](#Script-for-full-simulation)
 
 # Used-Tools
 - Xschem
