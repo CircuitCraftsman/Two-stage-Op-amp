@@ -62,9 +62,11 @@ Open-source two-stage operational amplifier
 # Pre-Layout Simulation
 
 **Common-mode gain**
+
 ![Common-Mode-Gain](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Common-mode%20gain.png)
 
-# Derivative
+**Derivative**
+
 ![Derivative](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Derivative.png)
 
 # Differential-mode gain
