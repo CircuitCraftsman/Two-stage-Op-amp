@@ -8,8 +8,8 @@ Open-source two-stage operational amplifier
 - [Parameters](#Parameters)
 - [Schematic](#Schematic)
 - [Pre-Layout Simulation](#Pre-Layout-Simulation)
-- [Layout](#Layout)
 - [Script for full simulation](#Script-for-full-simulation)
+- [Layout](#Layout)
 
 # Used-Tools
 - Xschem
@@ -170,3 +170,6 @@ plot inoise > input_noise.dat
 
 .end
  </pre>
+
+# Layout
+
