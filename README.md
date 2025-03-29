@@ -7,7 +7,7 @@ Open-source two-stage operational amplifier
 - [Used Tools](#Used-Tools)
 - [Parameters](#Parameters)
 - [Schematic](#Schematic)
-- [Simulation](#simulation)
+- [Pre-Layout Simulation](#Pre-Layout-Simulation])
 - [layout](#Layout)
 
 # Used-Tools
@@ -59,9 +59,7 @@ Open-source two-stage operational amplifier
 # Schematic
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Schematic.png)
 
-- # Simulation
-
-    - Pre-layout simulation
+- # Pre-Layout Simulation
   
 ![Common-Mode-Gain](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Common-mode%20gain.png)
 
