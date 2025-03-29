@@ -5,7 +5,6 @@ Open-source two-stage operational amplifier
 
 # Contents
 - [Used Tools](#Used-Tools)
-- [Block Diagram](#Block-Diagram)
 - [Parameters](#Parameters)
 - [Schematic](#Schematic)
 - [Simulation](#simulation)
@@ -27,3 +26,32 @@ Open-source two-stage operational amplifier
 - SkyWater 130
 
     - SKY130 is a mature 180nm-130nm hybrid technology developed by Cypress Semiconductor that has been used for many production parts. SKY130 is now available as a foundry technology through SkyWater Technology Foundry. The technology is the 8th generation SONOS technology node (130nm).
+
+# Parameters
+
+<table align="center">
+<tr>
+    <th>Parameters</th>
+    <th>Value</th>
+</tr>
+<tr>
+    <td>Differential Gain</td>
+    <td>100dB</td>
+</tr>
+<tr>
+    <td>Common Gain</td>
+    <td>-38dB</td>
+</tr>
+<tr>
+    <td>GBW</td>
+    <td>20MHz</td>
+</tr>
+<tr>
+    <td>CMRR</td>
+    <td>138dB</td>
+</tr>
+<tr>
+    <td>Slew Rate</td>
+    <td> 18 V/µs</td>
+</tr>
+<tr>
