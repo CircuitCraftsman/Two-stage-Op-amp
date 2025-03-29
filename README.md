@@ -89,8 +89,9 @@ Open-source two-stage operational amplifier
 ![Slew=Rate](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Slew%20rate.png)
 
 # Script for full simulation
-    ```
-    *********** OP-AMP CHARACTERIZATION SCRIPT ***********
+
+ ::
+ 
 * Include Technology and Models
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
@@ -167,7 +168,5 @@ plot inoise > input_noise.dat
 .endc
 
 .end
-
-    ``` 
 
 
