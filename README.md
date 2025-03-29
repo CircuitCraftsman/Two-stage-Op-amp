@@ -60,22 +60,22 @@ Open-source two-stage operational amplifier
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Schematic.png)
 
 # Pre Layout Simulation
-Common-mode gain
+# Common-mode gain
 ![Common-Mode-Gain](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Common-mode%20gain.png)
 
-Derivative
+# Derivative
 ![Derivative](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Derivative.png)
 
-Differential-mode gain
+# Differential-mode gain
 ![Differential-Mode-Gain](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Differential-mode%20gain.png)
 
-ICMR
+# ICMR
 ![ICMR](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/ICMR.png)
 
-PSRR
+# PSRR
 ![PSRR](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/PSRR.png)
 
-Slew rate
+# Slew rate
 ![Slew=Rate](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Simulation/Pre-layout/Slew%20rate.png)
 
 
