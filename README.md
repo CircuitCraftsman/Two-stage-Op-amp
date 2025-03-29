@@ -8,7 +8,7 @@ Open-source two-stage operational amplifier
 - [Parameters](#Parameters)
 - [Schematic](#Schematic)
 - [Pre-Layout Simulation](#Pre-Layout-Simulation)
-- [layout](#Layout)
+- [Layout](#Layout)
 
 # Used-Tools
 - Xschem
@@ -49,6 +49,10 @@ Open-source two-stage operational amplifier
 <tr>
     <td>CMRR</td>
     <td>138dB</td>
+</tr>
+<tr>
+    <td>Compenastion capacitor</td>
+    <td>800fF</td>
 </tr>
 <tr>
     <td>Slew Rate</td>
