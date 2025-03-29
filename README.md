@@ -54,7 +54,7 @@ Open-source two-stage operational amplifier
     <td>Slew Rate</td>
     <td> 18 V/µs</td>
 </tr>
-<tr>
+</table>
 
 # Schematic
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Schematic.png)
