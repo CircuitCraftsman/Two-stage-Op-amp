@@ -12,7 +12,7 @@ Open-source two-stage operational amplifier design using open-source tools. In t
 - [Layout](#Layout)
 - [Future Work](#Future-Work)
 
-# Used-Tools
+# Used Tools
 - Xschem
 
     - Xschem is a schematic capture program; it allows the creation of hierarchical representation of circuits with a top down approach. By focusing on interfaces, hierarchy, and instance properties, a complex system can be described in terms of simpler building blocks. A VHDL, Verilog, or Spice netlist can be generated from the drawn schematic, allowing the simulation of the circuit. The key feature of the program is its drawing engine written in C and uses the Xlib drawing primitives; this gives very good speed performance, even in huge circuits. The user interface is built with the Tcl-Tk toolkit; TCL is the extension language.
