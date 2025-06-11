@@ -1,7 +1,7 @@
 # Two-stage op-amp design
 ![Two-stage op-amp](https://github.com/CircuitCraftsman/Two-stage-Op-amp/blob/main/Schematic/Op-amp.png)
 
-Open-source two-stage operational amplifier design using open-source tools. In this design, I created a basic two-stage op-amp schematic in Xschem and simulated it using Ngspice. In addition, I took an existing op-amp layout (avsd_opamp) and modified it a bit. You can generate the layout (.mag) file using the script that I uploaded into the layout directory.
+Open-source two-stage operational amplifier design using open-source tools. In this design, I created a basic two-stage op-amp schematic in Xschem and simulated it using Ngspice. Additionally, I modified an existing op-amp layout (avsd_opamp) slightly. You can generate the layout (.mag) file using the script that I uploaded into the layout directory.
 
 # Contents
 - [Used Tools](#Used-Tools)
@@ -15,7 +15,7 @@ Open-source two-stage operational amplifier design using open-source tools. In t
 # Used Tools
 - Xschem
 
-    - Xschem is a schematic capture program; it allows the creation of hierarchical representation of circuits with a top down approach. By focusing on interfaces, hierarchy, and instance properties, a complex system can be described in terms of simpler building blocks. A VHDL, Verilog, or Spice netlist can be generated from the drawn schematic, allowing the simulation of the circuit. The key feature of the program is its drawing engine written in C and uses the Xlib drawing primitives; this gives very good speed performance, even in huge circuits. The user interface is built with the Tcl-Tk toolkit; TCL is the extension language.
+    Xschem is a schematic capture program that allows the creation of a hierarchical representation of circuits using a top-down approach. By focusing on interfaces, hierarchy, and instance properties, a complex system can be described in terms of simpler building blocks. A VHDL, Verilog, or Spice netlist can be generated from the drawn schematic, allowing the simulation of the circuit. The key feature of the program is its drawing engine, written in C and using the Xlib drawing primitives; this gives very good speed performance, even in huge circuits. The user interface is built with the Tcl-Tk toolkit; TCL is the extension language.
 
 - Ngspice
 
